@@ -10,9 +10,7 @@ body {
 a {
   color: #FF4081;
 }
-a:hover {
-  background-color: #B6B6B6;
-}
+
 .bg-image.no-image {
   background-color: #26a69a;
 }
