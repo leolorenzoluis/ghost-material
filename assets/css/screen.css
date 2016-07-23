@@ -901,15 +901,15 @@ strong, b {
   flex: 1 0 100%;
   width: 100%;
 }
-.footer--suscriptions {
+.footer--subscriptions {
   padding: 0;
   display: inline-block;
   list-style: none;
 }
-.footer--suscriptions li {
+.footer--subscriptions li {
   display: inline;
 }
-.footer--suscriptions i {
+.footer--subscriptions i {
   font-size: 2rem;
 }
 .footer--bottom {

@@ -18,7 +18,7 @@ a {
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #303F9F;
+  background-color: #455A64;
   color: white;
 }
 .navbar a {
@@ -49,15 +49,15 @@ a {
 .post--content > h4,
 .post--content > h5,
 .post--content > h6 {
-  border-color: #3F51B5;
+  border-color: #B6B6B6;
 }
 .post--content p > code {
   background-color: #C5CAE9;
   color: #3F51B5;
 }
 .post--content blockquote {
-  background-color: #C5CAE9;
-  border-color: #3F51B5;
+  background-color: #CFD8DC;
+  border-color: #455A64;
 }
 .post--tags a {
   color: #888;
@@ -96,7 +96,7 @@ a {
 
 .fab {
   color: white;
-  background-color: #FF4081;
+  background-color: #03A9F4;
 }
 .fab:hover {
   color: white;
@@ -106,7 +106,7 @@ a {
 
 .button.solid {
   color: white;
-  background-color: #FF4081;
+  background-color: #03A9F4;
 }
 
 /* --- Waves ---------------------------------------------------------------- */
@@ -118,7 +118,7 @@ a {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #303F9F;
+  background-color: #455A64;
   color: #FFFFFF
 }
 .footer a {
