@@ -8,10 +8,10 @@ body {
   background-color: #E4E7EA;
 }
 a {
-  color: #ffb300;
+  color: #FF4081;
 }
 a:hover {
-  color: #00897b;
+  background-color: #B6B6B6;
 }
 .bg-image.no-image {
   background-color: #26a69a;
@@ -20,14 +20,13 @@ a:hover {
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #26a69a;
+  background-color: #303F9F;
   color: white;
 }
 .navbar a {
   color: white;
 }
 .navbar--nav-link:hover {
-  background-color: rgba(255,255,255,.5);
   border-bottom: 3px solid white;
 }
 
@@ -41,7 +40,7 @@ a:hover {
   background-color: #26a69a;
 }
 .header--subtitle {
-  color: #ddd;
+  color: #727272;
 }
 
 /* --- Content -------------------------------------------------------------- */
@@ -52,15 +51,15 @@ a:hover {
 .post--content > h4,
 .post--content > h5,
 .post--content > h6 {
-  border-color: teal;
+  border-color: #3F51B5;
 }
 .post--content p > code {
-  background-color: #e0f2f1;
-  color: teal;
+  background-color: #C5CAE9;
+  color: #3F51B5;
 }
 .post--content blockquote {
-  background-color: #e0f2f1;
-  border-color: teal;
+  background-color: #C5CAE9;
+  border-color: #3F51B5;
 }
 .post--tags a {
   color: #888;
@@ -92,14 +91,14 @@ a:hover {
   background-color: rgba(0,0,0,.05);
 }
 .author--media {
-  background-color: #26a69a;
+  background-color: #FF4081;
 }
 
 /* --- FABs ----------------------------------------------------------------- */
 
 .fab {
   color: white;
-  background-color: #ffb300;
+  background-color: #FF4081;
 }
 .fab:hover {
   color: white;
@@ -109,7 +108,7 @@ a:hover {
 
 .button.solid {
   color: white;
-  background-color: #ffb300;
+  background-color: #FF4081;
 }
 
 /* --- Waves ---------------------------------------------------------------- */
@@ -121,23 +120,18 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #00897b;
+  background-color: #303F9F;
+  color: #FFFFFF
 }
 .footer a {
-  color: #B2DFDB;
-}
-.footer a:hover {
   color: #FFFFFF;
 }
 .footer--top {
-  color: #80cbc4;
+  color: #FFFFFF;
 }
 .footer--bottom a {
-  color: #004d40;
-}
-.footer--bottom a:hover {
-  color: #80cbc4;
+  color: #FFFFFF;
 }
 .footer--bottom {
-  color: #004d40 ;
+  color: #FFFFFF ;
 }
