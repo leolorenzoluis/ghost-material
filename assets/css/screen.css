@@ -38,9 +38,6 @@ strong, b {
   object-fit: cover;
   object-position: center;
 }
-.bg-image.no-image {
-  background-color: black;
-}
 .bg-darken::before {
   z-index: 1;
   content: '';
@@ -156,6 +153,7 @@ strong, b {
 }
 .navbar--nav-link:hover {
   border-bottom: 3px solid rgba(127,127,127,0.5);
+  background-color: rgba(127,127,127,0.2);
 }
 .navbar--nav-link i + span {
   margin-left: 5px;
@@ -329,7 +327,6 @@ strong, b {
   border-radius: 2px;
   margin-bottom: 20px;
   background-color: white;
-  width: 100%;
 }
 .card:hover {
   box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -438,6 +435,9 @@ strong, b {
   position: relative;
   text-align: center;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.fab:focus {
+  outline: 0;
 }
 .fab:hover:not(.disabled) {
   box-shadow:0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -605,13 +605,10 @@ strong, b {
 .post--content > blockquote > p {
   margin: 0;
 }
-.post--content > blockquote > p:not(:last-child) {
-  margin-bottom: 20px;
-}
 .post--content p > code {
   font-size: 1rem;
   padding: 0 5px;
-  background-color: rgba(127,127,127,.1);
+  rgba(127,127,127,.1);
 }
 .post--content > pre {
   padding: 20px;
@@ -645,9 +642,6 @@ strong, b {
 }
 .post--content img {
   max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .post--tags {
   display: flex;
@@ -907,15 +901,15 @@ strong, b {
   flex: 1 0 100%;
   width: 100%;
 }
-.footer--subscriptions {
+.footer--suscriptions {
   padding: 0;
   display: inline-block;
   list-style: none;
 }
-.footer--subscriptions li {
+.footer--suscriptions li {
   display: inline;
 }
-.footer--subscriptions i {
+.footer--suscriptions i {
   font-size: 2rem;
 }
 .footer--bottom {
@@ -1010,4 +1004,19 @@ strong, b {
 }
 .wave {
   display: none;
+}
+
+
+/* -------------------------------------------------------------------------- *
+ * Disqus comments
+ * -------------------------------------------------------------------------- */
+
+#disqus_thread {
+  padding: 30px 20px;
+}
+
+@media(max-width: 600px) {
+  #disqus_thread {
+    padding: 30px 30px;
+  }
 }
