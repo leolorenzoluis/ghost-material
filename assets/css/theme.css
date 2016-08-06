@@ -75,6 +75,9 @@ a {
 .card a {
   color: white;
 }
+.card footer a {
+  color: #03A9F4;
+}
 .card.image .bg-darken {
   color: white;
 }
