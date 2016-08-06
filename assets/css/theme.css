@@ -72,6 +72,9 @@ a {
 .card {
   background-color: white;
 }
+.card a {
+  color: white;
+}
 .card.image .bg-darken {
   color: white;
 }
